@@ -1,0 +1,53 @@
+.icon {
+  mask-image: url("/assets/icons/ICON.svg");
+  mask-repeat: no-repeat;
+  background-color: #f0f0f0;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-default {
+  background: url("/assets/icons/ICON.svg") no-repeat;
+}
+
+.icon-20 {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-user {
+  mask-position: -317px -758px;
+  width: 25px;
+  color: black;
+  height: 31px;
+}
+
+.icon-facebook {
+  mask-position: -210px -562px;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-switch-app {
+  mask-position: -14px -47px;
+  width: 22px;
+  height: 18px;
+}
+.icon-logo-recruitment {
+  background-image: url("/assets/icons/ICON.svg");
+  background-repeat: no-repeat;
+  background-position: -226px -275px;
+  width: 32px;
+  height: 34px;
+}
+
+.icon-search {
+  mask-position: -283px -945px;
+  width: 14px;
+  height: 14px;
+}
