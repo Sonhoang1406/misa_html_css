@@ -1,43 +1,306 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>AMIS TUYEN DUNG</title>
-        <link rel="stylesheet" href="assets/css/common.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/icons.css">
-    </head>
-    <body>
-         <!-- Container -->
-         <div class="container d-flex flex-direction-column">
-            <!-- Header -->
-             <div class="header w-100 d-flex align-items-center justify-content-space-between">
-                <!-- Header-left -->
-                <div class="header-left d-flex align-items-center">
-                    <!-- Icon Switch App -->
-                    <div class="icon icon-switch-app"></div>
-                    <!-- Icon Recruitment -->
-                    <div class="icon-default icon-logo-recruitment"></div>
-                    <!-- Text Tuyển dụng -->
-                    <div >Tuyển dụng</div>
-                    <!-- Form Search -->
-                    <form class="header-search d-flex justify-content-space-between ">
-                        <div class="icon icon-search"></div>
-                        <input id="header-search-input" type="text" class="header-search-input" placeholder="Tìm kiếm...">
-                    </form>
-                </div>
-                <!-- Header-right -->
-                <div class="header-right">
+  <head>
+    <title>AMIS TUYEN DUNG</title>
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/icons.css" />
+    <link rel="stylesheet" href="assets/css/controls.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container d-flex flex-direction-column">
+      <!-- Header -->
+      <div
+        class="header w-100 d-flex align-items-center justify-content-space-between"
+      >
+        <!-- Header-left -->
+        <div class="header-left d-flex align-items-center">
+          <!-- Icon Switch App -->
+          <div class="icon icon-switch-app"></div>
+          <!-- Icon Recruitment -->
+          <div class="icon-default icon-logo-recruitment"></div>
+          <!-- Text Tuyển dụng -->
+          <div class="header-title">Tuyển dụng</div>
+          <!-- Search input -->
+          <div
+            class="header-search search-control d-flex align-items-center"
+            role="search"
+          >
+            <i
+              class="fa-solid fa-magnifying-glass header-search-icon"
+              aria-hidden="true"
+            ></i>
+            <input
+              id="header-search-input"
+              type="text"
+              class="header-search-input"
+              placeholder="Tìm kiếm tin tuyển dụng, ứng viên, nhân tài..."
+              aria-label="Tìm kiếm"
+            />
+          </div>
+        </div>
+        <!-- Header-right -->
+        <div
+          class="header-right d-flex align-items-center justify-content-space-between"
+        >
+          <div class="recruitment-page d-flex align-items-center">
+            <div class="icon icon-global"></div>
+            <div class="icon-text">Website uyển dụng</div>
+          </div>
+          <div class="icon-notification-version icon-24"></div>
+          <div class="icon-default icon-store icon-24"></div>
+          <div class="icon-default icon-message icon-24"></div>
+          <div class="icon icon-notification icon-24"></div>
+          <div class="icon icon-help icon-24"></div>
+          <div class="icon icon-more icon-24"></div>
+          <div class="icon-knowledge icon-24"></div>
+          <div class="ava-account avatar-account">
+            <img src="assets/images/avatar.png" />
+          </div>
+        </div>
+      </div>
+      <!-- Content -->
+      <div class="content w-100 flex1 d-flex">
+        <!-- SideBar -->
 
+        <appsidebar>
+          <div class="sidebar h-100 expand-mode">
+            <div class="sidebar-item-list">
+              <div class="item-content d-flex align-items-center">
+                <div class="item-container icon-24 d-flex align-items-center">
+                  <i class="fa-regular fa-newspaper"></i>
                 </div>
-
-             </div>
-             <!-- Content -->
-              <div class="content w-100 flex1 d-flex">
-                <!-- SideBar -->
-                 <div class="sidebar h-100"></div>`
-                 <!-- Main Content -->
-                  <div class="main-content h-100 flex1"></div>
+                <div class="icon-text">Tin tuyển dụng</div>
               </div>
-         </div>
-    </body>
+              <div class="item-content d-flex align-items-center">
+                <div class="item-container icon-24 d-flex align-items-center">
+                  <i class="fa-regular fa-newspaper"></i>
+                </div>
+
+                <div class="icon-text">Ứng viên</div>
+              </div>
+              <div class="item-content d-flex align-items-center">
+                <div class="item-container icon-24 d-flex align-items-center">
+                  <i class="fa-regular fa-newspaper"></i>
+                </div>
+
+                <div class="icon-text">Lịch</div>
+              </div>
+              <div class="item-content d-flex align-items-center">
+                <div class="item-container icon-24 d-flex align-items-center">
+                  <i class="fa-regular fa-newspaper"></i>
+                </div>
+
+                <div class="icon-text">Kho tiềm năng</div>
+              </div>
+              <div class="item-content d-flex align-items-center">
+                <div class="item-container icon-24 d-flex align-items-center">
+                  <i class="fa-regular fa-newspaper"></i>
+                </div>
+
+                <div class="icon-text">Chiến dịch tuyển dụng</div>
+              </div>
+              <div class="item-content d-flex align-items-center">
+                <div class="item-container icon-24 d-flex align-items-center">
+                  <i class="fa-regular fa-newspaper"></i>
+                </div>
+
+                <div class="icon-text">Công việc</div>
+              </div>
+              <div class="item-content d-flex align-items-center">
+                <div class="item-container icon-24 d-flex align-items-center">
+                  <i class="fa-regular fa-newspaper"></i>
+                </div>
+
+                <div class="icon-text">aiMarketing</div>
+              </div>
+              <div class="item-content d-flex align-items-center">
+                <div class="item-container icon-24 d-flex align-items-center">
+                  <i class="fa-regular fa-newspaper"></i>
+                </div>
+
+                <div class="icon-text">Trao đổi với ứng viên</div>
+              </div>
+              <div class="item-content d-flex align-items-center">
+                <div class="item-container icon-24 d-flex align-items-center">
+                  <i class="fa-regular fa-newspaper"></i>
+                </div>
+
+                <div class="icon-text">Báo cáo</div>
+              </div>
+              <div class="item-content d-flex align-items-center">
+                <div class="item-container icon-24 d-flex align-items-center">
+                  <i class="fa-regular fa-newspaper"></i>
+                </div>
+
+                <div class="icon-text">Khác</div>
+              </div>
+            </div>
+          </div>
+        </appsidebar>
+        <!-- Main Content -->
+        <div class="main-content d-flex flex-direction-column h-100 flex1">
+          <!-- Title Header -->
+          <div class="title-header d-flex justify-content-space-between">
+            <div class="title-left">Ứng viên</div>
+            <div class="title-right d-flex align-items-center">
+              <button class="btn primary">
+                <i class="fa-solid fa-plus"></i> Thêm ứng viên
+              </button>
+              <div class="btn-container">
+                <button class="btn primary">
+                  <div class="more-insert-option icon icon-down"></div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Candidate Wrapper -->
+          <div class="candidate-wrapper">
+            <div
+              class="toolbar-container d-flex align-items-center justify-content-space-between"
+            >
+              <div></div>
+              <div class="toolbar-left d-flex align-items-center">
+                <div
+                  class="search-box search-control d-flex align-items-center"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <input
+                    type="text"
+                    placeholder="Tìm kiếm nhanh trong danh sách"
+                  />
+                </div>
+                <div class="toolbar-actions d-flex">
+                  <button class="icon-btn" title="Bộ lọc">
+                    <i class="fa-solid fa-filter"></i>
+                  </button>
+                  <button class="icon-btn" title="Cài đặt hiển thị">
+                    <i class="fa-solid fa-sliders"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="table-wrap">
+              <table class="candidates-table">
+                <thead>
+                  <tr>
+                    <th class="col-check"><input type="checkbox" /></th>
+                    <th class="col-name">Họ và tên</th>
+                    <th class="col-phone">Số điện thoại</th>
+                    <th class="col-email">Email</th>
+                    <th class="col-campaign">Chiến dịch tuyển dụng</th>
+                    <th class="col-position">Vị trí tuyển dụng</th>
+                    <th class="col-job">Tin tuyển dụng</th>
+                    <th class="col-status">Vòng tuyển dụng</th>
+                    <th class="col-status">Đánh giá</th>
+                    <th class="col-status">Ngày tuyển dụng</th>
+                    <th class="col-status">Nguồn ứng viên</th>
+                    <th class="col-status">Trình độ đào tạo</th>
+                    <th class="col-status">Nơi đào tạo</th>
+                    <th class="col-status">Chuyên ngành</th>
+                    <th class="col-status">Nơi làm việc gần nhất</th>
+                    <th class="col-status">Đơn vị sử dụng</th>
+                    <th class="col-status">Phù hợp với chân dung</th>
+                    <th class="col-status">Khu vực</th>
+                    <th class="col-status">Người giới thiệu</th>
+                    <th class="col-status">Thông tin tiếp nhận</th>
+                    <th class="col-status">Thuộc kho tiềm năng</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="col-check"><input type="checkbox" /></td>
+                    <td class="col-name d-flex align-items-center">
+                      <div class="avatar avatar-initials">LH</div>
+                      <div class="name-text">
+                        Lê Mạnh Hùng<br /><span class="sub">Nhân viên</span>
+                      </div>
+                    </td>
+                    <td class="col-phone">--</td>
+                    <td class="col-email">--</td>
+                    <td class="col-campaign">--</td>
+                    <td class="col-position">QC /Tester/ Kiểm thử phần mềm</td>
+                    <td class="col-job">QC/Tester HN</td>
+                    <td class="col-status">--</td>
+                  </tr>
+                  <!-- <tr class="row-selected">
+                    <td class="col-check"><input type="checkbox" /></td>
+                    <td class="col-name d-flex align-items-center">
+                      <img
+                        class="avatar"
+                        src="assets/images/avatar.png"
+                        alt="avatar"
+                      />
+                      <div class="name-text">
+                        Nguyễn Minh Phong<br /><span class="sub"
+                          >Nhân viên</span
+                        >
+                      </div>
+                    </td>
+                    <td class="col-phone">--</td>
+                    <td class="col-email">dtthao.test02@gmail.com</td>
+                    <td class="col-campaign">--</td>
+                    <td class="col-position">QC /Tester/ Kiểm thử phần mềm</td>
+                    <td class="col-job">QC/Tester HN, HC...</td>
+                    <td class="col-status">Đã tuyển</td>
+                  </tr> -->
+                  <tr>
+                    <td class="col-check"><input type="checkbox" /></td>
+                    <td class="col-name d-flex align-items-center">
+                      <div class="avatar avatar-initials">LL</div>
+                      <div class="name-text">
+                        Lại Cẩm Linh<br /><span class="sub">Nhân viên</span>
+                      </div>
+                    </td>
+                    <td class="col-phone">0982 970 918</td>
+                    <td class="col-email">camlinh.lai27@gmail.com</td>
+                    <td class="col-campaign">--</td>
+                    <td class="col-position">QC /Tester/ Kiểm thử phần mềm</td>
+                    <td class="col-job">QC/Tester HN</td>
+                    <td class="col-status">Đã tuyển</td>
+                  </tr>
+                  <tr>
+                    <td class="col-check"><input type="checkbox" /></td>
+                    <td class="col-name d-flex align-items-center">
+                      <div class="avatar avatar-initials">BU</div>
+                      <div class="name-text">
+                        Bùi Mỹ Uyên<br /><span class="sub">Nhân viên</span>
+                      </div>
+                    </td>
+                    <td class="col-phone">0331 256 963</td>
+                    <td class="col-email">uyenbt.work@gmail.com</td>
+                    <td class="col-campaign">--</td>
+                    <td class="col-position">Nhân viên kinh doanh HC...</td>
+                    <td class="col-job">Nhân viên kinh doanh</td>
+                    <td class="col-status">Off</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div
+              class="table-footer d-flex align-items-center justify-content-space-between"
+            >
+              <div class="total">Tổng: <strong>5,363</strong> bản ghi</div>
+              <div class="pager d-flex align-items-center">
+                <label>Số bản ghi/trang</label>
+                <select>
+                  <option>25</option>
+                  <option>50</option>
+                  <option>100</option>
+                </select>
+                <div class="page-info">1 - 25 bản ghi</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

@@ -34,6 +34,7 @@
 }
 
 .icon-switch-app {
+  background-color: #7a8188;
   mask-position: -14px -47px;
   width: 22px;
   height: 18px;
@@ -44,10 +45,74 @@
   background-position: -226px -275px;
   width: 32px;
   height: 34px;
+  margin-left: 12px;
 }
 
 .icon-search {
+  background-color: #7a8188;
   mask-position: -283px -945px;
   width: 14px;
   height: 14px;
+  margin-left: 12px;
+}
+
+.icon-global {
+  background-color: #7a8188;
+  mask-position: 0 -608px;
+  width: 21px;
+  height: 21px;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+.icon-notification-version {
+  background-color: #7a8188;
+  background: url("/assets/icons/icon-notification.png") no-repeat center;
+  margin-left: 12px;
+}
+
+.icon-store {
+  background: url("/assets/icons/icon-store.png") no-repeat center;
+  margin-left: 12px;
+}
+
+.icon-message {
+  background: url("/assets/icons/icon-message.png") no-repeat center;
+  margin-left: 12px;
+}
+.icon-text {
+  font-size: 14px;
+  padding: 4px 0px;
+}
+
+.icon-notification {
+  background-color: #7a8188;
+  mask-position: -2px -634px;
+  width: 20px;
+  height: 21px;
+  margin-left: 12px;
+}
+
+.icon-help {
+  background-color: #7a8188;
+  mask-position: -236px -942px;
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
+}
+.icon-more {
+  background-color: #7a8188;
+  mask-position: -260px -942px;
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
+}
+.icon-knowledge {
+  background: url("/assets/icons/icon-knowledge.png") no-repeat center;
+  margin-left: 12px;
+}
+
+.icon-down {
+  mask-position: -35px -807px;
+  width: 13px;
+  height: 7px;
 }
