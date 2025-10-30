@@ -20,6 +20,11 @@
   height: 24px;
 }
 
+.icon-32 {
+  width: 32px;
+  height: 32px;
+}
+
 .icon-user {
   mask-position: -317px -758px;
   width: 25px;
@@ -115,4 +120,10 @@
   mask-position: -35px -807px;
   width: 13px;
   height: 7px;
+}
+
+.icon-left {
+  mask-position: -57px -700px;
+  width: 7px;
+  height: 12px;
 }
