@@ -184,8 +184,8 @@ function loadCandidateData(candidateId) {
         console.log('Set address to:', candidate.Address);
     }
 
-    // Load apply date (ngày ứng tuyển) - second date input
-    const applyDateInput = birthDateInputs[1]; // Second date input is apply date
+    // Load apply date (ngày ứng tuyển) 
+    const applyDateInput = birthDateInputs[1];
     console.log('Apply date input element:', applyDateInput);
     if (applyDateInput && candidate.ApplyDate) {
         const applyDate = new Date(candidate.ApplyDate);
